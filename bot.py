@@ -15,11 +15,11 @@ import json
 
 with open('config.json') as f:
     config = json.load(f)
-api = "https://discord.com/api/webhooks/805137617330241567/OxwG4RjXTnOFy6TAwhoJsSY-BSZll86Kw9D2kpXdYq-JLSbPaAhXjTkWgn58Lf4G6HVG"
-JumboPic = "https://cdn.discordapp.com/attachments/795757273153929220/803993863483424828/logo.jpg"
+api = ""
+JumboPic = "https://bonafidepress.com/wp-content/uploads/2020/09/IMG_2685.jpg"
 token = config.get('token')
 password = config.get('password')
-prefix = config.get('prefix')
+prefix = config.get('$')
 version = "1.2"
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[1;94m', '\033[1;91m', '\33[1;97m', '\33[1;93m', '\033[1;35m', '\033[1;32m', '\033[0m'
 
@@ -52,14 +52,7 @@ discordlogo = ('''
 ''')
 main = (BLUE + ''' 
 
-Made by jam
-
-     ██╗██╗   ██╗███╗   ███╗██████╗  ██████╗ 
-     ██║██║   ██║████╗ ████║██╔══██╗██╔═══██╗
-     ██║██║   ██║██╔████╔██║██████╔╝██║   ██║
-██   ██║██║   ██║██║╚██╔╝██║██╔══██╗██║   ██║
-╚█████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝╚██████╔╝
- ╚════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝  ╚═════╝ 
+Made by 6leed
 
 ███████╗███████╗██╗     ███████╗    ██████╗  ██████╗ ████████╗
 ██╔════╝██╔════╝██║     ██╔════╝    ██╔══██╗██╔═══██╗╚══██╔══╝
